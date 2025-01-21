@@ -18,6 +18,6 @@ public class Main {
         System.out.println("コンピュータの選択: " + janken.choiceToString(computerChoice));
         System.out.println("結果: あなたは" + result + "しました！");
 
-        scanner.close(); // Scannerを明示的に閉じる
+        scanner.close(); // scannerを明示的に閉じる
     }
 }

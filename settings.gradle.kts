@@ -10,15 +10,5 @@ plugins {
     id("org.gradle.toolchains.foojay-resolver-convention") version "0.8.0"
 }
 
-java {                                      
-    sourceCompatibility = JavaVersion.VERSION_17
-}
-
 rootProject.name = "report6"
 include("app")
-
-tasks.withType<Jar> {
-    manifest {
-        attributes["Main-Class"] = "Main"
-    }
-}

@@ -17,13 +17,13 @@ public class Janken {
      */
     public String determineWinner(int playerChoice, int computerChoice) {
         if (playerChoice == computerChoice) {
-            return "Draw";
+            return "あいこ";
         } else if ((playerChoice == 0 && computerChoice == 2) ||
                     (playerChoice == 1 && computerChoice == 0) ||
                     (playerChoice == 2 && computerChoice == 1)) {
-            return "Win";
+            return "勝ち";
         } else {
-            return "Lose";
+            return "負け";
         }
     }
 

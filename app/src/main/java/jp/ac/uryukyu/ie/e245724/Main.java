@@ -1,5 +1,4 @@
 package jp.ac.uryukyu.ie.e245724;
-1
 
 import java.util.Scanner;
 
@@ -26,7 +25,7 @@ public class Main {
         System.out.println("コンピュータの選択: " + janken.choiceToString(computerChoice));
 
         String result = janken.determineWinner(playerChoice, computerChoice);
-        System.out.println("結果: あなたは" + result + "しました！");
+        System.out.println("結果: あなたは" + result + "でした！");
 
         scanner.close();
     }
